@@ -1,14 +1,14 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&amp;display=swap');
-/**  
+/**
 * -----------------------------------------------------------------------------
 *
 * Template : Bizup  Consulting Business HTML Template
 * Author : reacthemes
-* Author URI : https://reactheme.com/ 
+* Author URI : https://reactheme.com/
 * Version: 1.0
 *
-* -----------------------------------------------------------------------------   
+* -----------------------------------------------------------------------------
     TABLE OF CONTENT
 ---------------------------------------------------------
     01. General CSS
@@ -29,7 +29,7 @@
     16. Choose Us Section CSS
     17. Team Section CSS
     18. Process Section CSS
-    19. Pricing Section CSS  
+    19. Pricing Section CSS
     20. Project Section CSS
     21. Partner Section CSS
     22. Blog Section CSS
@@ -2842,14 +2842,14 @@ body .search-modal .close:hover {
   opacity: .7;
 }
 .rs-breadcrumbs.img1 {
-  background: url(assets/images/about/about_banner.webp);
+  background: url(assets/images/about/about_banner.jpg);
 }
 .rs-breadcrumbs.img2 {
   background: url(assets/images/breadcrumbs/inr_2.jpg);
 }
 .rs-breadcrumbs.img3 {
   background: url(assets/images/breadcrumbs/inr_3.jpg);
-}
+}su
 .rs-breadcrumbs.img4 {
   background: url(assets/images/breadcrumbs/inr_4.jpg);
 }
@@ -9004,4 +9004,28 @@ body .search-modal .close:hover {
 ----------------------------------------*/
 .product-image {
   height:400px
+}
+.service-card{
+  background-color: white;
+  height: 100%;
+  border-radius: 10px;
+  padding:10px 10px 10px 10px;
+  border-width: 0px ;
+    display: flex;
+    justify-content: center;
+}
+.service-item-container{
+  display:flex;
+  flex:1 1 0px;
+}
+
+.service-item-container{
+    display:flex;
+    flex:1 1 0px;
+}
+.width-100{
+    width:100%;
+}
+.container-column{
+    flex-direction: column;
 }
