@@ -2849,12 +2849,12 @@ body .search-modal .close:hover {
 }
 .rs-breadcrumbs.img3 {
   background: url(assets/images/breadcrumbs/inr_3.jpg);
-}su
+}
 .rs-breadcrumbs.img4 {
   background: url(assets/images/breadcrumbs/inr_4.jpg);
 }
 .rs-breadcrumbs.img5 {
-  background: url(assets/images/breadcrumbs/inr_5.jpg);
+  background: url(assets/images/supply-chain/supply-chain-backdrop.jpg);
 }
 .rs-breadcrumbs.img6 {
   background: url(assets/images/breadcrumbs/inr_6.jpg);
@@ -9040,6 +9040,8 @@ body .search-modal .close:hover {
 .image-col{
     object-fit: cover;
     border-radius: 8px;
+    /*width: 100%;*/
+    /*max-height: 150px;*/
 }
 .service-title{
     font-size: 40px;!important;
