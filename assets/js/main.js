@@ -113,6 +113,27 @@
     // wow init
     new WOW().init();
 
+    console.log("yess")
+
+    function ju() {
+        $('.grid').imagesLoaded(function () {
+            $('.gridFilter').on('click','button', function () {
+                $grid.isotope({
+                    filter: '.active'
+                });
+            });
+            var $grid = $('.grid').isotope({
+                itemSelector: '.grid-item',
+                percentPosition: true,
+                masonry: {
+                    columnWidth: '.grid-item',
+                }
+            });
+        });
+
+    }
+    ju()
+
     // image loaded portfolio init
     var gridfilter = $('.grid');
     if (gridfilter.length) {
@@ -131,6 +152,12 @@
                 }
             });
         });
+
+        $('.filter2').css("display","none")
+        $('.filter3').css("display","none")
+        $('.filter4').css("display","none")
+        $('.filter5').css("display","none")
+
     }
 
     // project Filter
