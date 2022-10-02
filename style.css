@@ -2854,7 +2854,7 @@ body .search-modal .close:hover {
   background: url(assets/images/breadcrumbs/inr_4.jpg);
 }
 .rs-breadcrumbs.img5 {
-  background: url(assets/images/supply-chain/office-supplies-backdrop.jpg);
+  background: url(assets/images/supply-chain/supply-chain-backdrop.jpg);
 }
 .rs-breadcrumbs.img6 {
   background: url(assets/images/breadcrumbs/inr_6.jpg);
@@ -2873,6 +2873,15 @@ body .search-modal .close:hover {
 }
 .rs-breadcrumbs.img11 {
   background: url(assets/images/microfinance/microfinance.jpg);
+}
+
+
+.rs-breadcrumbs.img12 {
+  background: url(assets/images/IT/IT.jpg);
+}
+
+.rs-breadcrumbs.img13 {
+  background: url(assets/images/supply-chain/supply-chain-backdrop.jpg);
 }
 /* ------------------------------------
     08. Banner Section CSS
