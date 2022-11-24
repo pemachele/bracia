@@ -9015,7 +9015,8 @@ body .search-modal .close:hover {
     32. Custom CSS
 ----------------------------------------*/
 .product-image {
-  height:400px
+  height:400px;
+  object-fit: cover;
 }
 .service-card{
   background-color: white;
